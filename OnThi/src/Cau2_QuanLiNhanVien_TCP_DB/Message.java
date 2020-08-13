@@ -13,6 +13,7 @@ import java.util.List;
  * @author Kira
  */
 public class Message implements Serializable {
+    
     public static final int XEM_DANH_SACH =1;
     public static final int THEM_NHAN_VIEN=2;
     public static final int TIM_NHAN_VIEN_THEO_TEN=3;

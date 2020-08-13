@@ -1,0 +1,4 @@
+1$Bia Ha Noi$250000$50
+2$CocaCola$180000$30
+3$Bim bim$5000$200
+4$Ca phe G7$40000$60

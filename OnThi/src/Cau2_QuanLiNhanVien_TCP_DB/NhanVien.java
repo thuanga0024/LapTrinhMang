@@ -13,7 +13,7 @@ import java.util.Date;
  * @author Kira
  */
 public class NhanVien implements Serializable{
-    private String tenSv;
+    private String tenNV;
     private Date ngaysinh;
     private String chucdanh;
     
@@ -21,18 +21,20 @@ public class NhanVien implements Serializable{
         
     }
 
-    public NhanVien(String tenSv, Date ngaysinh, String chucdanh) {
-        this.tenSv = tenSv;
+    public NhanVien(String tenNV, Date ngaysinh, String chucdanh) {
+        this.tenNV = tenNV;
         this.ngaysinh = ngaysinh;
         this.chucdanh = chucdanh;
     }
-
-    public String getTenSv() {
-        return tenSv;
+    
+    
+    
+    public String getTenNV() {
+        return tenNV;
     }
 
-    public void setTenSv(String tenSv) {
-        this.tenSv = tenSv;
+    public void setTenNV(String tenNV) {
+        this.tenNV = tenNV;
     }
 
     public Date getNgaysinh() {
@@ -53,8 +55,10 @@ public class NhanVien implements Serializable{
 
     @Override
     public String toString() {
-        return "NhanVien{" + "tenSv= " + tenSv + ", ngaysinh= " + ngaysinh + ", chucdanh= " + chucdanh + '}';
+        return "NhanVien{" + "tenNV=" + tenNV + ", ngaysinh=" + ngaysinh + ", chucdanh=" + chucdanh + '}';
     }
+    
+    
     
     
 }

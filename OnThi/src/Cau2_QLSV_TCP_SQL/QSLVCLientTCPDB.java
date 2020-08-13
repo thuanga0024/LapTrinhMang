@@ -25,7 +25,6 @@ import org.omg.CORBA_2_3.portable.InputStream;
  */
 public class QSLVCLientTCPDB {
     public static void main(String[] args) throws IOException, ClassNotFoundException, ParseException {
-        
         BufferedReader inUser = new BufferedReader(new InputStreamReader(System.in));
         menu();
         int chon;
@@ -95,7 +94,6 @@ public class QSLVCLientTCPDB {
                 clientSocket.close();
                 break;
         }
-        
     }
     
     public static void menu(){
